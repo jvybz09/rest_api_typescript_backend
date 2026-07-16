@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",           // Carpeta donde se generará el código JavaScript compilado
+        "rootDir": "./src",           // Carpeta donde se encuentra el código fuente TypeScript
+        "lib": ["ESNext"],            // APIs y características de JavaScript disponibles para el proyecto
+        "target": "esnext",
+        "moduleResolution": "nodenext",
+        "module": "nodenext",
+        "strict": false,              // Desactiva las comprobaciones estrictas de TypeScript
+        "sourceMap": true,            // Genera archivos .map para facilitar la depuración
+        "esModuleInterop": true,      // Permite importar módulos CommonJS usando la sintaxis de import
+        "declaration": true,           // Genera archivos .d.ts con las definiciones de tipos
+        "types": ["jest"],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": ["src/**/*.ts"],        // Archivos TypeScript que serán compilados
+    "exclude": ["src/**/*.test.ts"]
+}
