@@ -9,7 +9,7 @@
         "strict": false,              // Desactiva las comprobaciones estrictas de TypeScript
         "sourceMap": true,            // Genera archivos .map para facilitar la depuración
         "esModuleInterop": true,      // Permite importar módulos CommonJS usando la sintaxis de import
-        "declaration": true,           // Genera archivos .d.ts con las definiciones de tipos
+        "declaration": false,           // Genera archivos .d.ts con las definiciones de tipos
         "types": ["jest"],
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true
